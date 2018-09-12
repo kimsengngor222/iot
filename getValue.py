@@ -4,7 +4,7 @@ from time import gmtime, strftime
 import time
 
 mydb = mysql.connector.connect(
-  host="hsm.vkirirom.com",
+  host="localhost",
   user="root",
   passwd="root12345",
   database="spring_hsm"
